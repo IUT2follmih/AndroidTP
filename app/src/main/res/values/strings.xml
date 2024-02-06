@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Android-TP</string>
+
+    <string name="exercice1">Exercice 1</string>
+    <string name="exercice2">Exercice 2</string>
+    <string name="exercice3">Exercice 3</string>
+    <string name="exercice4">Exercice 4</string>
+    <string name="exercice5">Exercice 5</string>
+    <string name="exercice1_text" />
+    <string name="exercice2_text">Quelle a été la différence de buts lors du match de foorball opposant l\'équipe enseignante du département à l\'équipe étudiante ?</string>
+    <string name="exercice2_radio1">+10 pour les enseignants</string>
+    <string name="exercice2_radio2">0 match nul</string>
+    <string name="exercice2_radio3">+1 pour les étudiants</string>
+</resources>

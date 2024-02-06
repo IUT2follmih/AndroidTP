@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class Exercice1Activity extends AppCompatActivity implements View.OnClickListener{
+public class Exercice1Activity extends AppCompatActivity implements View.OnClickListener {
 
     Button exo1Button;
     TextView exo1Hello;
@@ -38,11 +38,11 @@ public class Exercice1Activity extends AppCompatActivity implements View.OnClick
 //    }
 
     @Override
-    public void onClick(View view){
+    public void onClick(View view) {
         exo1Hello = (TextView) findViewById(R.id.exercice1_hello);
         exo1Prenom = (EditText) findViewById(R.id.exercice1_prenom);
 
-        if (!TextUtils.isEmpty(exo1Prenom.getText())){
+        if (!TextUtils.isEmpty(exo1Prenom.getText())) {
             exo1Hello.setText("Hello " + exo1Prenom.getText() + " !");
         }
     }

@@ -11,4 +11,5 @@
     <string name="exercice2_radio1">+10 pour les enseignants</string>
     <string name="exercice2_radio2">0 match nul</string>
     <string name="exercice2_radio3">+1 pour les étudiants</string>
+    <string name="exercice2_bouton">Valider ma répsonse</string>
 </resources>

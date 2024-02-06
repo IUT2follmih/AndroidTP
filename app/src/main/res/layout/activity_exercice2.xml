@@ -20,18 +20,34 @@
         android:layout_height="wrap_content">
 
         <RadioButton
+            android:id="@+id/radio1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/exercice2_radio1"/>
 
         <RadioButton
+            android:id="@+id/radio2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/exercice2_radio2"/>
 
         <RadioButton
+            android:id="@+id/radio3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/exercice2_radio3"/>
     </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/exercice2_bouton"
+        android:onClick="exercice2Valider"
+        android:id="@+id/exercice2_button"/>
+
+    <TextView
+        android:id="@+id/exercice2_hello"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
 </LinearLayout>

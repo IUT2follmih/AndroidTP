@@ -4,6 +4,28 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Exercice4Activity">
+    tools:context=".Exercice4Activity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/exercice4_text"
+        android:textSize="35dp"/>
+
+    <EditText
+        android:id="@+id/exercice4_prenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Valider"
+        android:onClick="exerciceValider"
+        android:id="@+id/exercice4_button"/>
 
 </LinearLayout>

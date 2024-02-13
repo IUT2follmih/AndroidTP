@@ -16,4 +16,6 @@
     <string name="nbWin" />
     <string name="nbLose" />
     <string name="nbNul" />
+    <string name="exercice4_text">Ecris ton prénom</string>
+    <string name="hello_text" />
 </resources>

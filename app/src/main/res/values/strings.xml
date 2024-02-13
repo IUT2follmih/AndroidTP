@@ -18,4 +18,6 @@
     <string name="nbNul" />
     <string name="exercice4_text">Ecris ton prénom</string>
     <string name="hello_text" />
+    <string name="tableText">Choisis ta table de multiplication</string>
+    <string name="buttonTableValider">Valider</string>
 </resources>

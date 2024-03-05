@@ -3,15 +3,15 @@ package fr.iut2.androidtp.exercice5Data;
 public class Multiplication {
     private int A;
     private int B;
-    private int reponse;
+    private int RES;
 
     public Multiplication(int a, int b) {
         this.A = a;
         this.B = b;
     }
 
-    public void setReponse(int reponse) {
-        this.reponse = reponse;
+    public void setRES(int reponse) {
+        this.RES = reponse;
     }
 
     public int getA() {
@@ -22,7 +22,11 @@ public class Multiplication {
         return B;
     }
 
-    public boolean isOk(int a, int b) {
-        return a*b == reponse;
+    public int getResult(){
+        return A*B;
+    }
+
+    public boolean isOk() {
+        return RES == getResult();
     }
 }

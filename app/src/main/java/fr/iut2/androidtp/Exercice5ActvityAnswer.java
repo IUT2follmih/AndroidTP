@@ -2,6 +2,7 @@ package fr.iut2.androidtp;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -52,14 +53,17 @@ public class Exercice5ActvityAnswer extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 for (int i = 0; i < 9; i++) {
-                    tableMult.getMultiplications().get(i).setRES(Integer.parseInt(resList.get(i).getText().toString()));
+                    if (resList.get(i).getText().toString().isEmpty()) {
+                        tableMult.getMultiplications().get(i).setRES(0);
+                    } else {
+                        tableMult.getMultiplications().get(i).setRES(Integer.parseInt(resList.get(i).getText().toString()));
+                    }
                 }
                 Integer res = tableMult.getNbErreurs();
-                if (res == 0) {
-                    Toast.makeText(Exercice5ActvityAnswer.this, "Bon!", Toast.LENGTH_SHORT).show();
-                } else {
-                    Toast.makeText(Exercice5ActvityAnswer.this, res.toString(), Toast.LENGTH_SHORT).show();
-                }
+                Toast.makeText(Exercice5ActvityAnswer.this, "Bon!", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Exercice5ActvityAnswer.this, Exercice5ActivityResult.class);
+                intent.putExtra(Exercice5ActivityResult.NB_ERROR, res);
+                startActivity(intent);
             }
         });
 

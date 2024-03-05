@@ -12,6 +12,9 @@
         android:theme="@style/Theme.AndroidTP"
         tools:targetApi="31">
         <activity
+            android:name=".Exercice5ActivityResult"
+            android:exported="false" />
+        <activity
             android:name=".Exercice5ActvityAnswer"
             android:exported="false" />
         <activity

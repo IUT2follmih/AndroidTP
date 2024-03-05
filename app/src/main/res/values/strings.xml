@@ -20,4 +20,6 @@
     <string name="hello_text" />
     <string name="tableText">Choisis ta table de multiplication</string>
     <string name="buttonTableValider">Valider</string>
+    <string name="e5_btn1" />
+    <string name="e5_btn2" />
 </resources>
